@@ -1,0 +1,154 @@
+.navbar-brand {
+  color: #b16936;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.navbar-brand:hover {
+  color: #393e46;
+}
+
+.home {
+  min-height: 100vh;
+}
+
+.wrapper-desc .title {
+  color: #8d5d3b;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 41px;
+}
+
+.wrapper-desc .title span {
+  color: #8d5d3b;
+}
+
+.wrapper-desc .desc {
+  color: #8d5d3b;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 16px 0 20px;
+}
+
+.wrapper-desc .btn-light {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #8d5d3b;
+  padding: 12px 50px;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.content {  
+  background-image: url("https://i.ibb.co/hVQPVdZ/home.jpg");
+}
+
+.image-full {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.section-cake {
+  background-color: #D2B48C;
+}
+
+.section-title {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.back-title {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 600;
+  letter-spacing: 0.015rem;
+  color: #d6b07f;
+}
+
+.front-title {
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #393e46;
+  font-weight: 600;
+  letter-spacing: 7px;
+  font-style: normal;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+.card .card-img {
+  width: 260px;
+  border-radius: 15px;
+}
+
+.card .card-body {
+  padding-top: 11px;
+}
+
+.card-body .card-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #393e46;
+}
+
+.card-body .card-price {
+  font-weight: 500;
+  color: #393e46;
+  font-size: 14px;
+  margin: 0;
+}
+
+footer {
+  background-color: #8d5d3b;  
+}
+
+footer .copyright {
+  font-weight: 500;
+  padding: 25px 0;
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .w-md-50 {
+    width: 100%;
+  }
+
+  .home .pic {
+    display: none;
+  }
+
+  .back-title {
+    font-size: 47px;
+  }
+
+  .front-title {
+    font-size: 24px;
+  }
+}
